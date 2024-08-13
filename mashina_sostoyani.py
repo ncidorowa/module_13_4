@@ -13,8 +13,7 @@ class UserState(StatesGroup):
     growth = State()
     weight = State()
 
-class UserData():
-    data = {}
+
 
 @dp.message_handler(commands=['start'])
 async def start(message):
